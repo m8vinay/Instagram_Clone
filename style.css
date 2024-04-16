@@ -1,15 +1,192 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 html,
-body{
-width: 100%;
-height: 100%;
+body {
+    width: 100%;
+    height: 100%;
 }
 
-.photo{
-    
+.photo {
+    height: 585px;
+    width: 430px;
+    position: absolute;
+    left: 23vw;
+    top: 5vh;
+}
+
+.background_photo {
+    height: 100%;
+    width: 100%;
+    background-image: url(home-phones.png);
+}
+
+.background_mobile {
+    height: 540px;
+    width: 250px;
+    background-image: url(screenshot1.png);
+    position: absolute;
+    top: 3.5vh;
+    left: 9.7vw;
+}
+
+.log_in {
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 6vh;
+    left: 51.5vw;
+    justify-content: space-between;
+}
+
+.div_1 {
+    width: 100%;
+    height: 410px;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-photo {
+    height: 80px;
+    width: 12vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(logo.png);
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+}
+
+.logo {
+    width: 100%;
+    height: calc(100% - 280px);
+}
+
+.form {
+    width: 100%;
+    height: 280px;
+    margin-top: 10px;
+}
+
+#Email {
+    width: 260px;
+    padding: 12px 12px 12px 12px;
+    margin: 0px 0px 0px 40px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: #FAFAFA;
+}
+
+#Email2 {
+    height: 30px;
+    width: 260px;
+    margin: 0px 00px 0px 40px;
+    border: 1px solid rgb(219, 219, 219);
+    background: #4FB4F9;
+    color: white;
+    border-radius: 10px;
+    margin-top: 2px;
+    font-weight: 770;
+}
+
+
+.or {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 3vw;
+    margin-top: 1.7vh;
+}
+
+.or h5 {
+    color: #737373;
+}
+
+.dash {
+    padding-bottom: 17px;
+    color: rgb(189, 181, 181);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.ri-facebook-box-fill {
+    font-size: 1rem;
+    background: #385185;
+    color: white;
+}
+
+.loginfacebook {
+    width: 180px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-top: 1vw;
+}
+
+.loginfacebook a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #385185;
+}
+
+.forgot_password {
+    margin-top: 15px;
+    margin-left: 8vw;
+}
+
+.forgot_password a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin-bottom: 1vh;
+    color: #275683;
+}
+
+.div_2 {
+    width: 100%;
+    height: 63px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 1.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_2 a {
+    color: #0095F6;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.div_2 p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.div_3 {
+    width: 100%;
+    height: 95px;
+    border: 2px solid black;
+    margin-top: 1.3vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+._aa5q {
+    height: 40px;
+}
+
+.text p {
+    font-size: 14px;
 }
