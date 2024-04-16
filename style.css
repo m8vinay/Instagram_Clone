@@ -82,23 +82,26 @@ body {
 }
 
 #Email {
-    width: 260px;
+    height: 35px;
+    width: 267px;
     padding: 12px 12px 12px 12px;
     margin: 0px 0px 0px 40px;
     border: 1px solid rgb(219, 219, 219);
     border-radius: 4px;
     margin-bottom: 8px;
     background: #FAFAFA;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
 }
 
 #Email2 {
     height: 30px;
-    width: 260px;
+    width: 265px;
     margin: 0px 00px 0px 40px;
     border: 1px solid rgb(219, 219, 219);
     background: #4FB4F9;
     color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-top: 2px;
     font-weight: 770;
 }
@@ -114,6 +117,7 @@ body {
 
 .or h5 {
     color: #737373;
+    font-weight: 600;
 }
 
 .dash {
@@ -122,25 +126,20 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-.ri-facebook-box-fill {
-    font-size: 1rem;
-    background: #385185;
-    color: white;
-}
-
 .loginfacebook {
-    width: 180px;
+    width: 160px;
     height: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 5vw;
+    margin-left: 6vw;
     margin-top: 1vw;
 }
 
 .loginfacebook a {
     text-decoration: none;
     font-weight: 600;
+    font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: #385185;
 }
@@ -165,13 +164,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #275683;
 }
 
 .div_2 a {
     color: #0095F6;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 600;
     margin-left: 5px;
 }
 
@@ -240,4 +239,10 @@ body {
     border: none;
     color: #737373;
     width: 60px;
+}
+
+.facebook_logo{
+    height: 19px;
+    width:19px;
+    background-image: url(facebook_logo.png);
 }
