@@ -19,3 +19,35 @@ document.addEventListener("DOMContentLoaded", function() {
   // Change background image every 3 seconds
   setInterval(changeBackgroundImage, 3000);
 });
+
+
+
+
+// This is to redirect user to real instagram login page when click on log in 
+document.addEventListener("DOMContentLoaded", function() {
+  // Get reference to the login button
+  const loginButton = document.getElementById("Email2");
+
+  // Add event listener to the login button
+  loginButton.addEventListener("click", function() {
+      // Redirect the user to the Instagram website
+      window.location.href = "https://www.instagram.com";
+  });
+});
+
+
+// This is to redirect user to real instagram sign up page when click on sign up
+document.addEventListener("DOMContentLoaded", function() {
+  // Get reference to the sign-up button
+  const signUpButton = document.querySelector(".div_2 a");
+
+  // Add event listener to the sign-up button
+  signUpButton.addEventListener("click", function(event) {
+      // Prevent the default action of the link (i.e., following the href)
+      event.preventDefault();
+      
+      // Redirect the user to the sign-up page on Instagram
+      window.location.href = "https://www.instagram.com/accounts/emailsignup/";
+  });
+});
+
