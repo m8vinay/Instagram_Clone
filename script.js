@@ -51,3 +51,14 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+
+window.addEventListener('load', function() {
+  var preloader = document.querySelector('.preloader');
+  var content = document.querySelector('.content');
+
+  // Hide preloader
+  preloader.style.display = 'none';
+
+  // Show content
+  content.style.display = 'block';
+});

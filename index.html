@@ -10,8 +10,49 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <style>
+      /* Preloader styles */
+      .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .spinner {
+        width: 100px;
+        height: 100px;
+        background-image: url("https://imgs.search.brave.com/FOkwiR1bmNFGRgiIydL0-JkOv3mEmPZHUDfwnpD4YT0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTMuZ2lwaHkuY29t/L21lZGlhL2tVVE1F/N0FCbWhZZzVKM3Bz/TS8yMDAuZ2lmP2Np/ZD03OTBiNzYxMWZs/djE5bGppYmZtN3pr/dGNxNTI3ZnlzcTJm/bW93MzI1ajZpNmNi/NDgmZXA9djFfZ2lm/c19zZWFyY2gmcmlk/PTIwMC5naWYmY3Q9/Zw.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: spin 2s linear infinite;
+      }
+  
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+  
+      /* Hide content until loaded */
+      .content {
+        display: none;
+      }
+    </style> 
   </head>
   <body>
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+
+
     <div class="main_div">
       <div class="main">
         <div class="photo">
@@ -30,7 +71,9 @@
                 type="email"
               />
               <input placeholder="Password" id="Email" type="password" />
-              <button id="Email2">Log in</button>
+              <a href="afterlogin.html">
+              <button id="Login"  >Log in</button>
+            </a>
               <div class="or">
                 <div class="dash">________________</div>
                 <h5>OR</h5>
@@ -97,7 +140,7 @@
           <a href=""> © 2024 Instagram from Meta</a>
         </div>
       </div>
-      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
