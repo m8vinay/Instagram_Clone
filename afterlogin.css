@@ -34,9 +34,15 @@ body {
 }
 
 .navbar-top {
+    width: 90%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin-right: 50px;
+}
+.navbar-down{
+    width: 90%;
+    margin-right: 50px;
 }
 
 .main_content {
@@ -47,18 +53,23 @@ body {
 }
 
 .home {
-    margin-top: 35.5px;
-    margin-left: 3.5px;
+    height: 45px;
+    width: 100%;
+    margin-top: 28px;
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-left: 10px;
 }
 
 .home1 {
-    margin-top: 29px;
+    height: 45px;
+    width: 100%;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-left: 10px;
 }
 
 .home1 h4 {
@@ -75,15 +86,18 @@ body {
     margin-bottom: 28px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    padding-left: 10px;
 }
 
 .home2 h4 {
+    padding-top: 10px;
+    height: 45px;
     font-weight: 400;
     margin-left: 6px;
 }
 
 .home3 {
+    height: 45px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -167,4 +181,38 @@ body {
 .ri-verified-badge-fill {
     color: #0095f6;
     margin-left: 5px;
+}
+
+
+.home:hover{
+    background-color: rgb(95, 92, 92);
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.home1:hover{
+    background-color: rgb(95, 92, 92);
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.home2:hover{
+    background-color: rgb(95, 92, 92);
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.threads:hover{
+    background-color: rgb(95, 92, 92);
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.threads{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
