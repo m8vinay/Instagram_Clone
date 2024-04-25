@@ -185,27 +185,27 @@ body {
 
 
 .home:hover{
-    background-color: rgb(95, 92, 92);
+    background-color: #201c1c;
     border-radius: 8px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 .home1:hover{
-    background-color: rgb(95, 92, 92);
+    background-color: #201c1c;
     border-radius: 8px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 .home2:hover{
-    background-color: rgb(95, 92, 92);
+    background-color:#201c1c;
     border-radius: 8px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 .threads:hover{
-    background-color: rgb(95, 92, 92);
+    background-color: #201c1c;
     border-radius: 10px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 

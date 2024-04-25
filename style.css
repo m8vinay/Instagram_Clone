@@ -246,3 +246,26 @@ body {
     width:19px;
     background-image: url(facebook_logo.png);
 }
+
+@media (max-width: 900px) {
+    .background_photo{
+        display: none;
+    }
+    .background_mobile{
+        display: none;
+    }
+    .log_in{
+        transform: translate(-50%,0%);
+    }
+    
+    .logo-photo{
+        transform: translate(20%,0%);
+        width: 50%;
+    }
+    .footer{
+       width: 100%;
+    }
+    .footer_1{
+       width: 100%;
+    }
+}
